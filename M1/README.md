@@ -1,5 +1,31 @@
 # MILESTONE 1
 
+## Table of Contents
+
+1. [Internet](#internet)
+2. [How does the Internet work?](#how-does-the-internet-work)
+3. [Proxy](#proxy)
+   - [Forward Proxy](#forward-proxy)
+   - [Reverse Proxy](#reverse-proxy)
+   - [Anonymous Proxy](#anonymous-proxy)
+4. [Status Codes](#status-codes)
+5. [Networks](#networks)
+   - [P2P (Peer-to-Peer)](#p2p-peer-to-peer)
+   - [C-S (Client-Server)](#c-s-client-server)
+6. [Protocols](#protocols)
+   - [TCP/IP](#tcpip)
+   - [UDP](#udp)
+7. [HTTP](#http)
+8. [Domain Names and DNS](#domain-names-and-dns)
+   - [Flow of finding the IP address of a domain](#flow-of-finding-the-ip-address-of-a-domain)
+   - [Record Types](#record-types)
+9. [Types of Hosting](#types-of-hosting)
+10. [Browsers](#browsers)
+11. [Web Servers](#web-servers)
+12. [How browsers work?](#how-browsers-work)
+13. [Browser Engines](#browser-engines)
+14. [V8 Engine](#v8-engine)
+
 ## Internet
 
 The Internet is a global network of connected computers that allows people to share information and communicate with each other.
