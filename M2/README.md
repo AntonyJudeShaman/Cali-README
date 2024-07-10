@@ -15,6 +15,7 @@
 
    1. [DOM Structure](#dom-structure)
    2. [DOM Manipulation Methods](#dom-manipulation-methods)
+   3. [DOM Event Listeners](#dom-event-listeners)
 
 3. [CSS Layouts](#css-layouts)
 
