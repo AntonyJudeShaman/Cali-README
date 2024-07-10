@@ -13,7 +13,7 @@
    - [P2P (Peer-to-Peer)](#p2p-peer-to-peer)
    - [C-S (Client-Server)](#c-s-client-server)
 6. [Protocols](#protocols)
-   - [TCP/IP](#tcpip)
+   - [TCP/IP](#tcp/ip)
    - [UDP](#udp)
 7. [HTTP](#http)
 8. [Domain Names and DNS](#domain-names-and-dns)
