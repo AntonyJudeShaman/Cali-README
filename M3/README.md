@@ -29,9 +29,9 @@ Forms are used to collect user input. The submitted values can be sent to a serv
 
 HTML has three types of lists:
 
-1. Unordered lists (`<ul>`) - Attributes - types: disc, circle, square
-2. Ordered lists (`<ol>`) - Attributes - type: 1, A, a, I, i, start, reversed
-3. Description lists (`<dl>`)
+1. **Unordered lists** (`<ul>`) - Attributes - types: disc, circle, square
+2. **Ordered lists** (`<ol>`) - Attributes - type: 1, A, a, I, i, start, reversed
+3. **Description lists** (`<dl>`)
 
 ```html
 <ul>
@@ -139,12 +139,31 @@ SEO involves optimizing your web pages to make them reach a high position in sea
 
 ## HTML APIs
 
-HTML5 introduced several APIs that allow for more interactive web experiences. Some popular ones include:
+#### Interfaces in HTML:
+
+- **Navigator** - Represents the state and identity of the user agent.
+- **Window** - Represents the browser window
+- **Document** - Represents the HTML document
+
+```javascript
+// navigator object
+navigator.clipboard.writeText("Hello, World!");
+navigator.userAgent;
+
+// window object
+window.location.href;
+window.history.back();
+window.history.forward();
+
+// document object
+document.title;
+```
+
+#### HTML APIs:
 
 - Geolocation API
 - Drag and Drop API
 - Web Storage API
-- Canvas and WebGL
 
 **Geolocation API:**
 
@@ -207,6 +226,22 @@ document.addEventListener("DOMContentLoaded", function () {
     body.appendChild(p);
   });
 });
+```
+
+**Web Storage API:**
+
+1. **Local Storage** - Data stored without expiration date
+2. **Session Storage** - Data stored for one session. Data is lost when the tab is closed.
+3. **Cookies** - Data stored in the browser. Can be accessed by the server.
+
+```javascript
+localStorage.setItem("name", "Antony");
+sessionStorage.setItem("name", "Jude");
+browser.cookies.set({name, "Shaman"});
+
+console.log(localStorage.getItem("name"));
+console.log(sessionStorage.getItem("name"));
+console.log(browser.cookies.get("name"));
 ```
 
 ## HTML Comments
