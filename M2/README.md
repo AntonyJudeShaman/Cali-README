@@ -165,6 +165,46 @@ element.innerHTML = "text";
 element.value = "Hello";
 ```
 
+### DOM Event Listeners
+
+Event listeners are used to trigger functions when an event occurs
+
+```javascript
+// single click event
+document.getElementByTagName("button").addEventListener("click", function () {
+  alert("Button was clicked!");
+});
+
+// double click event
+document
+  .getElementByTagName("button")
+  .addEventListener("dblclick", function (e) {
+    alert(`Button was double clicked at ${e.clientX}, ${e.clientY}`);
+  });
+
+// mouse over event
+document.getElementById("id").addEventListener("mouseover", function () {
+  alert("Mouse over the button!");
+});
+
+// mouse move event
+document
+  .getElementByClassName("container")
+  .addEventListener("mousemove", function (e) {
+    alert(`Mouse is at ${e.clientX}, ${e.clientY}`);
+  });
+
+// scroll event
+document.addEventListener("scroll", function () {
+  alert("Scrolling!");
+});
+
+// submit event
+document.getElementByTagName("form").addEventListener("submit", function (e) {
+  alert(`Hi ${e.target.value.name} your email is ${e.target.value.email}`);
+});
+```
+
 ## CSS Layouts
 
 ### Float Layout
