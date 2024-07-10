@@ -24,40 +24,9 @@
      - [Geolocation API](#geolocation-api)
      - [Drag and Drop API](#drag-and-drop-api)
      - [Web Storage API](#web-storage-api)
+     - [Fetch API](#fetch-api)
 
 5. [HTML Comments](#html-comments)
-
-6. Milestone 3 - Forms, Lists, and Tables
-   1.1. Forms
-
-   - Types of Inputs
-     1.2. Lists
-     1.3. Tables
-   - Attributes
-
-7. Accessibility
-
-   - Key practices
-   - Examples
-
-8. SEO (Search Engine Optimization)
-
-   - HTML-related SEO practices
-
-9. HTML APIs
-   4.1. Interfaces in HTML
-
-   - Navigator
-   - Window
-   - Document
-     4.2. HTML APIs
-   - Geolocation API
-   - Drag and Drop API
-   - Web Storage API
-
-10. HTML Comments
-
-This table of contents provides an overview of the main topics covered in the document. Would you like me to elaborate on any specific section?
 
 ### Forms
 
@@ -196,6 +165,33 @@ SEO involves optimizing your web pages to make them reach a high position in sea
 </head>
 ```
 
+#### Structured Data
+
+Structured data is a standardized format for providing information about a page and classifying the content. It helps search engines understand the content on the page.
+
+```html
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "http://www.example.com",
+    "name": "Example"
+  }
+</script>
+```
+
+#### Structured Data features
+
+- **Rich Snippets** - Enhances search results with additional information
+- **Knowledge Graph** - Displays information about entities in a box on the right side of search results
+- **Breadcrumbs** - Shows the hierarchy of a website in search results
+- **Sitelinks** - Displays links to subpages in search results
+- **Events** - Displays information about events in search results
+- **FAQs** - Shows frequently asked questions in search results
+- **How-to** - Shows step-by-step instructions in search results
+- **Product Information** - Displays product information in search results
+- **Organization Information** - Displays information about organizations in search results
+
 ## HTML APIs
 
 #### Interfaces in HTML:
@@ -224,6 +220,7 @@ document.title;
 - Geolocation API
 - Drag and Drop API
 - Web Storage API
+- Fetch API
 
 **Geolocation API:**
 
@@ -304,9 +301,22 @@ console.log(sessionStorage.getItem("name"));
 console.log(browser.cookies.get("name"));
 ```
 
+**Fetch API:**
+
+The Fetch API provides an interface for fetching resources across the network. It supports methods like GET, POST, PUT, DELETE, etc.
+
+```javascript
+fetch("/api/data")
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.error(error));
+```
+
+_A promise is returned by the fetch method_
+
 ## HTML Comments
 
-HTML comments are used to insert notes in the HTML source code. They are not displayed in the browser.
+HTML comments are used to insert notes in the HTML source code. They are not displayed in the webpage or browser.
 
 ```html
 <!-- This is a comment -->
