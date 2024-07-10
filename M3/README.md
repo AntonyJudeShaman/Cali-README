@@ -14,6 +14,9 @@
 
 3. [SEO (Search Engine Optimization)](#seo-search-engine-optimization)
 
+   - [Structured Data](#structured-data)
+     - [Structured Data features](#structured-data-features)
+
 4. [HTML APIs](#html-apis)
 
    - [Interfaces in HTML](#interfaces-in-html)
