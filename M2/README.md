@@ -4,33 +4,33 @@
 
 1. [HTML Basics](#html-basics)
 
-   1. [What is HTML?](#what-is-html)
-   2. [What is XHTML?](#what-is-xhtml)
-   3. [Elements and Attributes](#elements-and-attributes)
-      - [Self Closing Tags](#self-closing-tags)
-      - [Opening and Closing Tags](#opening-and-closing-tags)
-      - [Semantic and Non-Semantic Elements](#semantic-and-non-semantic-elements)
-   4. [Formatting and Styling](#formatting-and-styling)
-   5. [Comments](#comments)
+   - [What is HTML?](#what-is-html)
+   - [What is XHTML?](#what-is-xhtml)
+   - [Elements and Attributes](#elements-and-attributes)
+     - [Self Closing Tags](#self-closing-tags)
+     - [Opening and Closing Tags](#opening-and-closing-tags)
+     - [Semantic and Non-Semantic Elements](#semantic-and-non-semantic-elements)
+   - [Formatting and Styling](#formatting-and-styling)
+   - [Comments](#comments)
 
 2. [Document Object Model](#document-object-model)
 
-   1. [DOM Structure](#dom-structure)
-   2. [DOM Manipulation Methods](#dom-manipulation-methods)
-   3. [DOM Event Listeners](#dom-event-listeners)
+   - [DOM Structure](#dom-structure)
+   - [DOM Manipulation Methods](#dom-manipulation-methods)
+   - [DOM Event Listeners](#dom-event-listeners)
 
 3. [CSS Layouts](#css-layouts)
 
-   1. [Float Layout](#float-layout)
-   2. [Flexbox Layout](#flexbox-layout)
-   3. [Grid Layout](#grid-layout)
-   4. [Box Model](#box-model)
+   - [Float Layout](#float-layout)
+   - [Flexbox Layout](#flexbox-layout)
+   - [Grid Layout](#grid-layout)
+   - [Box Model](#box-model)
 
 4. [Classes and IDs](#classes-and-ids)
 
 5. [Charsets](#charsets)
-   1. [ASCII Charset](#ascii-charset)
-   2. [UTF-8 Charset](#utf-8-charset)
+   - [ASCII Charset](#ascii-charset)
+   - [UTF-8 Charset](#utf-8-charset)
 
 ## HTML Basics
 

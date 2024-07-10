@@ -4,11 +4,11 @@
 
 1. [Milestone 3 - Forms, Lists, and Tables](#milestone-3---forms-lists-and-tables)
 
-   1. [Forms](#forms)
-      - [Types of Inputs](#types-of-inputs)
-   2. [Lists](#lists)
-   3. [Tables](#tables)
-      - [Attributes](#attributes)
+   - [Forms](#forms)
+     - [Types of Inputs](#types-of-inputs)
+   - [Lists](#lists)
+   - [Tables](#tables)
+     - [Attributes](#attributes)
 
 2. [Accessibility](#accessibility)
 
@@ -16,14 +16,14 @@
 
 4. [HTML APIs](#html-apis)
 
-   1. [Interfaces in HTML](#interfaces-in-html)
-      - [Navigator](#navigator)
-      - [Window](#window)
-      - [Document](#document)
-   2. [HTML APIs](#html-apis-1)
-      - [Geolocation API](#geolocation-api)
-      - [Drag and Drop API](#drag-and-drop-api)
-      - [Web Storage API](#web-storage-api)
+   - [Interfaces in HTML](#interfaces-in-html)
+     - [Navigator](#navigator)
+     - [Window](#window)
+     - [Document](#document)
+   - [HTML APIs](#html-apis-1)
+     - [Geolocation API](#geolocation-api)
+     - [Drag and Drop API](#drag-and-drop-api)
+     - [Web Storage API](#web-storage-api)
 
 5. [HTML Comments](#html-comments)
 
