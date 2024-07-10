@@ -108,7 +108,9 @@ document
      └── body
          ├── h1
          ├── p
-         └── div
+         └── div |-- p
+                 |-- img
+                 └── a
 ```
 
 ### DOM Manipulation Methods
