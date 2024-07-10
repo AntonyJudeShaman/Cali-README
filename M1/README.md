@@ -102,7 +102,7 @@ _The steps are carried on if the IP address is not found the current step._
 
 ### Browser Engines
 
-- **Blink**: Chrome, Opera.
+- **Blink**: Chrome, Opera. Forked from Webkit.
 - **Gecko**: Firefox.
 - **Webkit**: Safari.
 
