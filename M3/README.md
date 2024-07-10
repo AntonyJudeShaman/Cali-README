@@ -1,5 +1,64 @@
 # Milestone 3 - Forms, Lists, and Tables
 
+## Table of Contents
+
+1. [Milestone 3 - Forms, Lists, and Tables](#milestone-3---forms-lists-and-tables)
+
+   1. [Forms](#forms)
+      - [Types of Inputs](#types-of-inputs)
+   2. [Lists](#lists)
+   3. [Tables](#tables)
+      - [Attributes](#attributes)
+
+2. [Accessibility](#accessibility)
+
+3. [SEO (Search Engine Optimization)](#seo-search-engine-optimization)
+
+4. [HTML APIs](#html-apis)
+
+   1. [Interfaces in HTML](#interfaces-in-html)
+      - [Navigator](#navigator)
+      - [Window](#window)
+      - [Document](#document)
+   2. [HTML APIs](#html-apis-1)
+      - [Geolocation API](#geolocation-api)
+      - [Drag and Drop API](#drag-and-drop-api)
+      - [Web Storage API](#web-storage-api)
+
+5. [HTML Comments](#html-comments)
+
+6. Milestone 3 - Forms, Lists, and Tables
+   1.1. Forms
+
+   - Types of Inputs
+     1.2. Lists
+     1.3. Tables
+   - Attributes
+
+7. Accessibility
+
+   - Key practices
+   - Examples
+
+8. SEO (Search Engine Optimization)
+
+   - HTML-related SEO practices
+
+9. HTML APIs
+   4.1. Interfaces in HTML
+
+   - Navigator
+   - Window
+   - Document
+     4.2. HTML APIs
+   - Geolocation API
+   - Drag and Drop API
+   - Web Storage API
+
+10. HTML Comments
+
+This table of contents provides an overview of the main topics covered in the document. Would you like me to elaborate on any specific section?
+
 ### Forms
 
 Forms are used to collect user input. The submitted values can be sent to a server for processing. Forms can any number of input elements.
@@ -148,6 +207,7 @@ SEO involves optimizing your web pages to make them reach a high position in sea
 ```javascript
 // navigator object
 navigator.clipboard.writeText("Hello, World!");
+navigator.clipboard.readText().then((text) => console.log(text));
 navigator.userAgent;
 
 // window object

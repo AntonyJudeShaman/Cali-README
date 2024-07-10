@@ -1,5 +1,7 @@
 # Milestone 2: HTML and DOM Basics
 
+## Table of Contents
+
 1. [HTML Basics](#html-basics)
 
    1. [What is HTML?](#what-is-html)
