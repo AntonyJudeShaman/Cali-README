@@ -1,5 +1,21 @@
 # Milestone 5
 
+## Table of Contents
+
+1. [CSS](#css)
+
+   - [Why CSS?](#why-css)
+   - [CSS Syntax](#css-syntax)
+   - [CSS Selectors and Combinators](#css-selectors-and-combinators)
+   - [Pseudo-classes and Pseudo-elements](#pseudo-classes-and-pseudo-elements)
+   - [Combining Selectors](#combining-selectors)
+   - [Specificity Hierachy](#specificity-hierachy)
+   - [!important](#!important)
+   - [Units of Measurement](#units-of-measurement)
+   - [CSS Functions](#css-functions)
+   - [CSS Variables](#css-variables)
+   - [CSS Comments](#css-comments)
+
 ## CSS Selectors and Combinators
 
 ### Selectors - To Target Elements and apply styles
