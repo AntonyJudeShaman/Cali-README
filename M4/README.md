@@ -110,7 +110,7 @@ Syntactically Awesome Style Sheets and Sassy CSS are CSS preprocessors that prov
 }
 ```
 
-- **Importing and partials** - Break CSS code into separate files and reuse them
+- **Importing** - Break CSS code into separate files and reuse them
 
 ```css
 @import "form";
@@ -132,7 +132,7 @@ form {
 - **Inheritance** - Share styles between selectors
 
 ```css
-%button {
+%button /* Placeholder selector */ {
   padding: 10px;
   border: 1px solid #000;
 }
@@ -147,8 +147,20 @@ form {
 
 ```css
 @for $i from 1 through 3 {
-  .item-#{$i} {
+  .item-{$i} {
     width: 100px * $i;
+  }
+}
+
+@if $theme == light {
+  body {
+    background-color: #fff;
+    color: #000;
+  } @else {
+    body {
+      background-color: #000;
+      color: #fff;
+    }
   }
 }
 ```
