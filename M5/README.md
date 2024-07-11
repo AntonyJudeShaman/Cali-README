@@ -1,6 +1,8 @@
-# CSS Selectors and Combinators
+# Milestone 5
 
-## Selectors - To Target Elements and apply styles
+## CSS Selectors and Combinators
+
+### Selectors - To Target Elements and apply styles
 
 1. **Universal Selector**: Selects all elements.
 
@@ -42,7 +44,7 @@
    }
    ```
 
-## Combinators - To Describe Relationships between Selectors
+### Combinators - To Describe Relationships between Selectors
 
 1. **Descendant Combinator**: Selects all descendants of an element.
 
@@ -75,9 +77,9 @@
    }
    ```
 
-## Pseudo-classes and Pseudo-elements
+### Pseudo-classes and Pseudo-elements
 
-#### **Pseudo-classes**: Select elements based on a certain state.
+##### **Pseudo-classes**: Select elements based on a certain state.
 
 1. :hover - Activated when mouse is hovered
 
@@ -139,7 +141,7 @@ input[type="checkbox"]:checked {
 }
 ```
 
-#### **Pseudo-elements**: Allow you to style a specific part of an element.
+##### **Pseudo-elements**: Allow you to style a specific part of an element.
 
 1. **::before** and **::after** - Insert content before or after an element's content
 
@@ -205,7 +207,7 @@ input::placeholder {
 }
 ```
 
-## Combining Selectors
+### Combining Selectors
 
 You can combine multiple selectors to create more specific rules:
 
@@ -218,7 +220,7 @@ div.container + p.text {
 
 This selects all `<p>` elements with the class "text" that are immediately preceded by a `<div>` element with the class "container".
 
-## Specificity Hierachy
+### Specificity Hierachy
 
 1. **!important**: Highest priority
 2. **Inline Styles**: Highest priority after `!important`
@@ -226,7 +228,7 @@ This selects all `<p>` elements with the class "text" that are immediately prece
 4. **Class, Pseudo-class, Attribute Selectors**: More specific than element selectors
 5. **Element and Pseudo-element Selectors**: Least specific
 
-## !important
+### !important
 
 The `!important` rule overrides all other rules and should be used cautiously. It is used to give a rule the highest priority
 
@@ -238,7 +240,7 @@ p {
 
 _**Note**: It is recommended to avoid using `!important` as it can make debugging and maintaining styles difficult._
 
-## Units of Measurement
+### Units of Measurement
 
 1. **Absolute Units**:
 
@@ -263,7 +265,7 @@ _**Note**: It is recommended to avoid using `!important` as it can make debuggin
    - `vmin` - 1% of the viewport's smaller dimension (width or height)
    - `vmax` - 1% of the viewport's larger dimension (width or height)
 
-## CSS Functions
+### CSS Functions
 
 1. **rgb()** - Defines a color using the RGB color model
 
@@ -350,7 +352,7 @@ _**Note**: It is recommended to avoid using `!important` as it can make debuggin
     }
     ```
 
-## CSS Variables
+### CSS Variables
 
 CSS variables are custom properties that allow you to store and reuse values in your stylesheets.
 
@@ -361,7 +363,7 @@ CSS variables are custom properties that allow you to store and reuse values in 
 }
 ```
 
-## CSS Comments
+### CSS Comments
 
 Comments in CSS are used to explain the code and are not displayed in the browser.
 

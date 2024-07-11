@@ -1,4 +1,4 @@
-# CSS, Sass, and SCSS Overview
+# Milestone 4
 
 ## Table of Contents
 
