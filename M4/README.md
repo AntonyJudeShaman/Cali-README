@@ -27,6 +27,33 @@
 
 Cascading Style Sheets is a styling language used to describe the presentation of HTML documents.
 
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <!-- Importing external CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Internal CSS */
+      h1 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: blue;">Hello, World!</h1>
+    <!-- Inline CSS -->
+    <p class="hello">Hello</p>
+    <!-- External CSS -->
+  </body>
+</html>
+```
+
 ### Why CSS?
 
 - Separates content from presentation
@@ -132,13 +159,13 @@ form {
 - **Inheritance** - Share styles between selectors
 
 ```css
-%button /* Placeholder selector */ {
+.hello /* Placeholder selector */ {
   padding: 10px;
   border: 1px solid #000;
 }
 
 .submit-button {
-  @extend %button;
+  @extend .hello;
   background-color: #f0f0f0;
 }
 ```
