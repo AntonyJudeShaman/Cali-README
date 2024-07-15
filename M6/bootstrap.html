@@ -23,7 +23,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand display-12" href="#">Antony</a>
+        <a class="navbar-brand fs-3" href="#">Antony</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -54,74 +54,83 @@
       </div>
     </nav>
     <div class="container mt-5">
-      <h1 class="display-24">Welcome to the landing page</h1>
-      <p class="lead">
+      <p class="fw-bolder fs-1">Welcome to the landing page</p>
+      <p class="fs-5 font-monospace w-60">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
         excepturi reprehenderit id, in rerum dicta neque magni ullam, nemo natus
         mollitia corrupti praesentium fugiat culpa consectetur quis hic
         quibusdam repellat.
       </p>
-      <a href="#" class="btn btn-primary">Button</a>
     </div>
 
     <section class="container mt-5">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card border-2 border-primary rounded-2">
-            <div class="card-body">
-              <h5 class="card-title display-12">Antony</h5>
-              <p class="card-text">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col d-flex rounded-xl">
+          <div class="card border-2 border-dark flex-fill">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fs-3 fw-bolder">Antony</h5>
+              <p class="card-text flex-grow-1">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Possimus excepturi reprehenderit id, in rerum dicta neque magni
                 ullam, nemo natus mollitia corrupti praesentium fugiat culpa
                 consectetur quis hic quibusdam repellat.
               </p>
-              <a href="#" class="btn btn-primary">Button</a>
+              <a
+                href="#"
+                class="btn btn-dark w-50 position-relative d-block mx-auto mt-auto"
+                >Button</a
+              >
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col d-flex">
           <form
-            class="card border-2 border-primary rounded-2 card-body"
+            class="card border-2 border-dark rounded-2 flex-fill"
             onsubmit="handleFormSubmit(event)"
           >
-            <div class="mb-3 card-bo">
-              <label for="email" class="form-label display-12"
-                >Email address</label
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fs-3 fw-bolder">Jude</h5>
+              <div class="mb-3">
+                <label for="email" class="form-label display-8"
+                  >Email address</label
+                >
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label display-8"
+                  >Password</label
+                >
+                <input type="password" class="form-control" id="password" />
+              </div>
+              <button
+                type="submit"
+                class="btn btn-dark w-50 position-relative d-block mx-auto mt-auto"
               >
-              <input type="email" class="form-control" id="email" />
+                Submit
+              </button>
             </div>
-            <div class="mb-3">
-              <label for="password" class="form-label display-12"
-                >Password</label
-              >
-              <input type="password" class="form-control" id="password" />
-            </div>
-            <button
-              type="submit"
-              class="btn btn-primary w-50 position-relative d-block mx-auto"
-            >
-              Submit
-            </button>
           </form>
         </div>
-        <div class="col-md-4">
-          <div class="card border-2 border-primary rounded-2">
-            <div class="card-body">
-              <h5 class="card-title display-12">Shaman</h5>
-              <p class="card-text">
+        <div class="col d-flex">
+          <div class="card border-2 border-dark rounded-2 flex-fill">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fs-3 fw-bolder">Shaman</h5>
+              <p class="card-text flex-grow-1">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Possimus excepturi reprehenderit id, in rerum dicta neque magni
                 ullam, nemo natus mollitia corrupti praesentium fugiat culpa
                 consectetur quis hic quibusdam repellat.
               </p>
-              <a href="#" class="btn btn-primary">Button</a>
+              <a
+                href="#"
+                class="btn btn-dark w-50 position-relative d-block mx-auto mt-auto"
+                >Button</a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <footer
       class="bg-dark d-inline-flex justify-between col-12 position-absolute mx-auto d-block bottom-0 text-white text-center py-3"
     >
