@@ -254,7 +254,8 @@ p {
 }
 ```
 
-_**Note**: It is recommended to avoid using `!important` as it can make debugging and maintaining styles difficult._
+> [!NOTE]
+> It is recommended to avoid using `!important` as it can make debugging and maintaining styles difficult.\_
 
 ### Units of Measurement
 
